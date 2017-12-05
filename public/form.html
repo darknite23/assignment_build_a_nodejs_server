@@ -1,0 +1,28 @@
+<html>
+    <head>
+    </head>
+        <body>
+            <h1>Yes your Form page did load correctly!</h1>
+            <form action="/form.html" method="get">
+                Username:<br>
+                <input type="text" name="username">
+                <br>
+                Password:<br>
+                <input type="text" name="password">
+                <br><br>
+                <input type="submit" value="Submit">
+            </form> 
+            <div>
+                    <h2>Request:</h2>
+                    <pre>{{ req }}</pre>
+                    
+                    <h2>Response:</h2>
+                    <pre>{{ res }}</pre>
+            </div>    
+        </body>
+</html>
+
+
+
+
+
